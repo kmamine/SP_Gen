@@ -1,4 +1,4 @@
-from model_shuffle import *
+from src.model import *
 import pandas as pd
 import numpy as np
 import cv2
