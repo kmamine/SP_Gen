@@ -5,6 +5,7 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Torchvision](https://cranlogs.r-pkg.org/badges/torchvision)(https://cran.r-project.org/package=torchvision)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -60,3 +61,19 @@ series = {CBMI '22}
 
 # Intructions 
 
+To run the model it is preffered to : 
+1.  create a virtual envirement using (```venv``` or ```conda```)
+
+2. follow the instruction to install the appropriate <a href="https://pytorch.org/get-started/locally/"> ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) </a> verion on you station.
+
+3. clone the repository: 
+```bash
+git clone https://github.com/kmamine/SP_Gen.git
+```
+
+4. install dependencies : 
+```bash 
+cd ./SP_Gen/
+pip install -r requirements.txt
+
+```
