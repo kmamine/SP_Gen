@@ -11,5 +11,5 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2209.11338-b31b1b.svg)](https://arxiv.org/abs/2209.11338)
+[![arXiv](https://img.shields.io/badge/arXiv-2209.11338-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2209.11338)
 ----
