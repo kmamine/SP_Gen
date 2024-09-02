@@ -27,3 +27,36 @@ Extensive testing of our model demonstrates its superiority over existing state-
 
 ## Model 
 ![Model](./static/model.jpg)
+
+
+## Reuslts
+### MIT1003 Dataset
+ ![qual-mit1003](./static/qual-mit1003.png)
+
+### Le Meur Painting Dataset
+ ![qual-lemeur](./static/qual-lemeur.png)
+
+### AVAtt Painting Dataset (Ours)
+ ![qual-avatt](./static/qual-avatt.png)
+
+```bibtex
+@inproceedings{10.1145/3549555.3549597,
+author = {Kerkouri, Mohamed Amine and Tliba, Marouane and Chetouani, Aladine and Bruno, Alessandro},
+title = {A domain adaptive deep learning solution for scanpath prediction of paintings},
+year = {2022},
+isbn = {9781450397209},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3549555.3549597},
+doi = {10.1145/3549555.3549597},
+booktitle = {Proceedings of the 19th International Conference on Content-Based Multimedia Indexing},
+pages = {57–63},
+numpages = {7},
+keywords = {Paintings., Scanpath Prediction, Unsupervised Domain Adaptation},
+location = {Graz, Austria},
+series = {CBMI '22}
+}
+```
+
+# Intructions 
+
