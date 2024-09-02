@@ -380,6 +380,7 @@ class ScanPathModel(nn.Module):
         self.__setattr__(
             'gaussians',
             self._initialize_gaussians(self.n_gaussians))
+    
     @staticmethod
     def _make_gaussian_maps(x, gaussians, size=None, scaling=6.):
               """Construct prior maps from Gaussian parameters."""
