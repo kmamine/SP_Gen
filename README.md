@@ -5,7 +5,6 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Torchvision](https://cranlogs.r-pkg.org/badges/torchvision)(https://cran.r-project.org/package=torchvision)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -40,6 +39,11 @@ Extensive testing of our model demonstrates its superiority over existing state-
 ### AVAtt Painting Dataset (Ours)
  ![qual-avatt](./static/qual-avatt.png)
 
+
+# Citation
+
+Please cite the following papers for this project: 
+
 ```bibtex
 @inproceedings{10.1145/3549555.3549597,
 author = {Kerkouri, Mohamed Amine and Tliba, Marouane and Chetouani, Aladine and Bruno, Alessandro},
@@ -64,7 +68,7 @@ series = {CBMI '22}
 To run the model it is preffered to : 
 1.  create a virtual envirement using (```venv``` or ```conda```)
 
-2. follow the instruction to install the appropriate <a href="https://pytorch.org/get-started/locally/"> ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) </a> verion on you station.
+2. follow the instruction to install the appropriate <a href="https://pytorch.org/get-started/locally/"> ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) </a> and Torchvision verions on you station.
 
 3. clone the repository: 
 ```bash
@@ -75,5 +79,10 @@ git clone https://github.com/kmamine/SP_Gen.git
 ```bash 
 cd ./SP_Gen/
 pip install -r requirements.txt
-
 ```
+
+The repo relies on <a href="https://pytorch.org/get-started/locally/">Pytorch</a>, <a href="https://pytorch.org/get-started/locally/">torchvision</a>, and <a href="https://kornia.github.io/">kornia</a> libraries.
+
+
+
+
